@@ -45,6 +45,24 @@
        button:hover {
         background-color: darkblue
        }
+       
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: crimson;
+        position: relative;            
+        animation: slide 2s linear infinite; 
+      }
+
+        @keyframes slide {
+          0% {
+          transform: translateX(0);  
+      }
+          100% {
+          transform: translateX(300px); 
+     }
+       }
+
 
 
     </style>
@@ -69,6 +87,8 @@
        <!-- question6 -->
         <h1>question6</h1>
         <button classs="button">login</button>
+        <!-- question8 -->
+         <div class="box"></div>
 
 </body>
 </html>
